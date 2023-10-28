@@ -99,7 +99,10 @@ public class WeatherApp {
         frame.setVisible(true);
     }
 }
-[I first created the WeatherData cla.txt](https://github.com/gulnaaaaaaaaz/gulnaaaaaaaaz/files/13196164/I.first.created.the.WeatherData.cla.txt)
+
 ![Снимок экрана 2023-10-28 212604](https://github.com/gulnaaaaaaaaz/gulnaaaaaaaaz/assets/149236768/e72b388b-2395-4051-b43b-f7921090f65f)
 ![Снимок экрана 2023-10-28 212558](https://github.com/gulnaaaaaaaaz/gulnaaaaaaaaz/assets/149236768/a02f47d4-fefa-464a-9006-f87fbd1fcc19)
 ![Снимок экрана 2023-10-28 212556](https://github.com/gulnaaaaaaaaz/gulnaaaaaaaaz/assets/149236768/5fb1b949-1cd1-4467-87b7-29f98e39fda4)
+[I first created the WeatherData cla.txt](https://github.com/gulnaaaaaaaaz/gulnaaaaaaaaz/files/13196193/I.first.created.the.WeatherData.cla.txt)
+
+
