@@ -3,13 +3,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-// Define the common data model for weather
+
 class WeatherData {
     private String location;
     private double temperature;
     private String condition;
 
-    // Getters and setters
+   
 
     public String getLocation() {
         return location;
@@ -36,12 +36,11 @@ class WeatherData {
     }
 }
 
-// WeatherAdapter class to translate data from different sources
+
 class WeatherAdapter {
     public static WeatherData adaptFromAPIA(String dataFromAPIA) {
         WeatherData weatherData = new WeatherData();
-        // Parse dataFromAPIA and map it to WeatherData fields
-        // Example parsing logic:
+       
         weatherData.setLocation("LocationA");
         weatherData.setTemperature(72.5);
         weatherData.setCondition("Sunny");
@@ -50,8 +49,7 @@ class WeatherAdapter {
 
     public static WeatherData adaptFromAPIB(String dataFromAPIB) {
         WeatherData weatherData = new WeatherData();
-        // Parse dataFromAPIB and map it to WeatherData fields
-        // Example parsing logic:
+        
         weatherData.setLocation("LocationB");
         weatherData.setTemperature(68.0);
         weatherData.setCondition("Rainy");
@@ -73,7 +71,7 @@ public class WeatherApp {
         apiAButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Simulate getting data from Weather API A
+                
                 String dataFromAPIA = "APIA Data"; // Replace with actual API call
                 WeatherData weatherData = WeatherAdapter.adaptFromAPIA(dataFromAPIA);
                 resultLabel.setText("Weather Data: " + weatherData.getLocation() + ", " +
@@ -84,7 +82,7 @@ public class WeatherApp {
         apiBButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Simulate getting data from Weather API B
+               
                 String dataFromAPIB = "APIB Data"; // Replace with actual API call
                 WeatherData weatherData = WeatherAdapter.adaptFromAPIB(dataFromAPIB);
                 resultLabel.setText("Weather Data: " + weatherData.getLocation() + ", " +
